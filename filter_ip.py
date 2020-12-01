@@ -4,6 +4,7 @@ import sys
 
 def get_ip():
     print("Enter target file name:")
+
     __filename = input()
 
     if os.path.exists(__filename):
