@@ -1,6 +1,6 @@
 {
-    "host": "162.247.100.17",
-    "port": "4406",
+    "host": "192.168.0.1",
+    "port": "3306",
     "database": "whitelist",
     "user": "whitelist",
     "password": "whitelist"
