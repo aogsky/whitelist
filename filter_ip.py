@@ -4,10 +4,11 @@ import sys
 
 def get_ip():
     print("Enter target file name:")
-    ___filename = input()
 
-    if os.path.exists(___filename):
-        __f = open(___filename, encoding='utf-8 ')
+    __filename = input()
+
+    if os.path.exists(__filename):
+        __f = open(__filename, encoding='utf-8 ')
         __str = __f.read()
         __f.close()
     else:
